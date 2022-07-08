@@ -1,0 +1,39 @@
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding: 5%;
+}
+
+/*SOUS-MENU (cf.Romain)*/
+
+#menu li:hover ul li{
+    float: none;    
+}
+
+#menu li ul{
+    position: absolute;
+    background-color: rgb(161, 161, 161);
+    padding: 0;
+    opacity: 0.75;
+}
+
+#menu li ul li{
+    margin: 5px    5px;
+}
+
+#menu ul li ul{
+    display: none;
+}
+
+#menu ul li:hover ul{
+    display: block;
+}
+
+/*SOUS-MENU FIN*/
+
+.smenu{
+    color: black;
+}
