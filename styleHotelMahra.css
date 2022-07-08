@@ -1,7 +1,47 @@
-.logohotel{
-    width: 20%;
-    height: auto;
-    /*border-width: 5px;
-    border-color: blue;
-    border-radius: 20%;*/
+*{
+    margin:0;
 }
+
+
+.logohotel {
+    width: 15%;
+    height: auto;
+    border-radius: 50%;
+    
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    background-color: aqua;
+    margin-top: 40px;
+    margin-left: 250px;
+   
+}
+
+.banniere1 {
+    background-color: blue;
+    display:flex;
+    align-items:center;
+    text-align: center;
+
+}
+.meconnecter, .fr{
+    background-color: aqua;
+    margin: 0;
+    display:flex;
+    align-items:flex-end;
+    padding: 5px;
+    margin-left: 10px;
+}
+.logotitre{
+    display: flex;
+}
+
+.meconnecter{
+    margin-left: 450px;
+}
+
+
+

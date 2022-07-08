@@ -11,10 +11,14 @@
 
 <body>
     <header>
-        <img class="logohotel" src="imghotel/1-LogoHotel.jpg" alt="logo Hotel">
-        <h1>HOTEL L'UNIQUE</h1>
-        <input type="button" value="Me connecter">
-        <input type="button" value="FR">
+        <div class="banniere1">
+            <div class="logotitre">
+                <img class="logohotel" src="imghotel/1-LogoHotel.jpg" alt="logo Hotel">
+                <h1>HOTEL L'UNIQUE</h1>
+            </div>
+            <input class="meconnecter" type="button" value="Me connecter">
+            <input class="fr" type="button" value="FR">
+        </div>
         <nav>
             <p>Chambres</p>
             <p>Activités</p>
@@ -23,9 +27,9 @@
         </nav>
         <form action="url" method="post">
             <label>Date Arrivée :
-            <input type="date" name="DateReservation" id="DateArrivee"></label>
+                <input type="date" name="DateReservation" id="DateArrivee"></label>
             <label>Date Départ :
-            <input type="date" name="DateReservation" id="DateDépart"></label>
+                <input type="date" name="DateReservation" id="DateDépart"></label>
 
             <select name="Chambres" id="ChambresSelect">
                 <option value="">--Choissisez Votre Chambre--</option>
