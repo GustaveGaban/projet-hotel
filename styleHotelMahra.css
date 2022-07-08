@@ -15,12 +15,12 @@ h1 {
     text-align: center;
     font-size: 40px;
     background-color: aqua;
-    margin-top: 40px;
-    margin-left: 250px;
-   
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 .banniere1 {
+    border: 5px solid ;
     background-color: blue;
     display:flex;
     align-items:center;
@@ -35,12 +35,23 @@ h1 {
     padding: 5px;
     margin-left: 10px;
 }
+.meconnecter{
+    margin-left: 20%
+}
+
+
+
 .logotitre{
     display: flex;
 }
 
-.meconnecter{
-    margin-left: 450px;
+h2{
+    font-size: 80%;
+    text-align: left;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 
