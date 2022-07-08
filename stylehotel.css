@@ -1,0 +1,66 @@
+
+body{
+    background-color: bisque;
+    
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    background: color(red);
+    
+        
+}
+
+button{
+    background-color: bisque;
+    font-family: Arial;
+    font-size: 120%;
+}
+
+ul{
+    display: flex;
+    align-items: left;
+    list-style-type: none;
+    padding: 5%;
+}
+
+/*SOUS-MENU (cf.Romain) - retirer display inline pour affichage en colonne*/
+
+#menu li:hover ul li{
+    float: none;    
+    display: inline;    
+}
+
+#menu li ul{
+    justify-content: space-around;
+    position: absolute;
+    background-color: rgb(161, 161, 161);
+    opacity: 0.75;
+
+}
+
+#menu li ul li{
+    margin: 5%;
+}
+
+#menu ul li ul{
+    display: none;
+    padding: 0% 10%;
+    
+}
+
+#menu ul li:hover ul{
+    display: flex;
+    color: rgb(165, 165, 165);
+    
+}
+
+/*SOUS-MENU FIN*/
+
+.smenu{
+    color: black;
+}
+
+/* position: fixed; pour mettre barre fixe dans le défilement*/
