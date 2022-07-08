@@ -1,5 +1,5 @@
-*{
-    margin:0;
+* {
+    margin: 0;
 }
 
 
@@ -7,52 +7,42 @@
     width: 15%;
     height: auto;
     border-radius: 50%;
-    
 
 }
 
 h1 {
     text-align: center;
     font-size: 40px;
-    background-color: aqua;
     margin-top: 5%;
     margin-left: 5%;
 }
 
 .banniere1 {
-    border: 5px solid ;
-    background-color: blue;
-    display:flex;
-    align-items:center;
+    border: 5px solid;
+    display: flex;
+    align-items: center;
     text-align: center;
-
+    background-image: url(imghotel/Hôtel-Madame.jpg);
 }
-.meconnecter, .fr{
-    background-color: aqua;
+
+.meconnecter,
+.fr {
     margin: 0;
-    display:flex;
-    align-items:flex-end;
+    display: flex;
+    align-items: flex-end;
     padding: 5px;
     margin-left: 10px;
 }
-.meconnecter{
-    margin-left: 20%
+
+.meconnecter {
+    margin-left: 60%;
 }
 
 
-
-.logotitre{
-    display: flex;
-}
-
-h2{
-    font-size: 80%;
+h2 {
+    margin-left: 20%;
+    font-size: 100%;
     text-align: left;
     padding: 4px;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+    font-family: 'Edu QLD Beginner', cursive;
 }
-
-
-
