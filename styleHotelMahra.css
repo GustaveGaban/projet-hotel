@@ -20,7 +20,6 @@ h1 {
 
 h2 {
     color: coral;
-
     text-shadow: 2px 2px 2px black;
     margin-left: 20%;
     font-size: 100%;
@@ -34,8 +33,10 @@ h2 {
     display: flex;
     align-items: center;
     text-align: center;
-    background-image: url(imghotel/Hôtel-Madame.jpg);
-    height: 250px
+    height: 250px;
+    background-image: url(imghotel/imgherou.jpg);
+    background-position: 100%;
+    background-repeat: none;
 }
 
 .meconnecter,
@@ -57,9 +58,13 @@ h2 {
     margin-top: 5%;
     margin-bottom: 2%;
     padding: 10px;
-    
+
 }
-#ichambre, #iactivite, #iresto, #icontact{
+
+#ichambre,
+#iactivite,
+#iresto,
+#icontact {
     border: 2px solid black;
     border-radius: 40px;
     margin-right: 30px;
@@ -78,7 +83,7 @@ figcaption {
     justify-content: center;
     border: 1px solid;
     padding: 2%;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
     background-color: rgb(152, 107, 91);
@@ -87,23 +92,24 @@ figcaption {
 .boitephoto {
     width: 640px;
     overflow: hidden;
-    margin-top: 2%; 
 }
 
 .photoban2 {
     display: flex;
-    animation-duration:20s;    /*play banniere*/
+    animation-duration: 0s;
+    /*play banniere*/
     animation-name: mesImages;
     animation-iteration-count: infinite;
-    
+
 }
-.banniere2{
+
+.banniere2 {
     display: flex;
-    justify-content: center; 
-    margin-top: 2%;
-    background-color:rgb(184, 168, 117);
+    justify-content: center;
+    margin-top: 5%;
+    background-color: rgb(184, 168, 117);
     width: 100%;
-    
+
     display: flex;
     justify-content: center;
     padding: 0;
@@ -132,27 +138,42 @@ figcaption {
     }
 }
 
-.textpresent{
+.textpresent {
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
-   text-align: justify;
+    text-align: justify;
 }
-.signature{
+
+.signature {
     display: flex;
     justify-content: flex-end;
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
     margin-right: 20%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
-#directeur{
+
+#directeur {
     margin-top: 20%;
 }
-#imgdirecteur{
+
+#imgdirecteur {
     border: 1px solid black;
-    border-radius:50px;
+    border-radius: 50px;
     height: 80px;
+}
+
+.FooterContact {
+    text-align: center;
+    background-color: burlywood;
+    padding: 10px
+}
+.vague{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    background-color: red;
 }
