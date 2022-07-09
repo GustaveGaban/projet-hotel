@@ -1,66 +1,95 @@
 
 body{
-    background-color: bisque;
+    background-color: rgb(255, 238, 86);
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    
+}
+
+.banniere{
+    background-image: url(imghotel/hd/05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 640px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(116, 116, 116);
+    padding-bottom: 2%;
+    
+}
+
+/* CHANGE LE LOGO AVEC LE HOVER*/
+.card {
+    width: 15%;
+    height: 75%;
+    position: relative;
+    display: inline-block;
+    cursor:pointer;
+    margin: 0%;   
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;      
+}
+
+.card:hover .img-top {
+    display: inline;
+}
+/* FIN LOGO CHANGEMENT*/
+
+h1{
+    font-size: 400%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0%;
+}
+h2{
+    margin-bottom: 10%;
+    margin: 1%;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;    
+}
+
+#blackhotel{
+margin: 2%;
+}
+
+#navigation{
+margin-bottom: 10%;
+display: flex;
+justify-content: center;
+margin-left: 2%;
+
+}
+
+.logo{
+    width: 80%;
     
 }
 
 a{
     text-decoration: none;
 }
-a:hover{
-    background: color(red);
+
+
+
+
+
+
     
-        
-}
-
-button{
-    background-color: bisque;
-    font-family: Arial;
-    font-size: 120%;
-}
-
-ul{
-    display: flex;
-    align-items: left;
-    list-style-type: none;
-    padding: 5%;
-}
-
-/*SOUS-MENU (cf.Romain) - retirer display inline pour affichage en colonne*/
-
-#menu li:hover ul li{
-    float: none;    
-    display: inline;    
-}
-
-#menu li ul{
-    justify-content: space-around;
-    position: absolute;
-    background-color: rgb(161, 161, 161);
-    opacity: 0.75;
-
-}
-
-#menu li ul li{
-    margin: 5%;
-}
-
-#menu ul li ul{
-    display: none;
-    padding: 0% 10%;
     
-}
 
-#menu ul li:hover ul{
-    display: flex;
-    color: rgb(165, 165, 165);
-    
-}
-
-/*SOUS-MENU FIN*/
-
-.smenu{
-    color: black;
-}
 
 /* position: fixed; pour mettre barre fixe dans le défilement*/
