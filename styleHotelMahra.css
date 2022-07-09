@@ -77,33 +77,31 @@ figcaption {
     background-color: rgb(152, 107, 91);
 }
 
-main {
-    display: flex;
-    justify-content: center;
-
-}
-
 .boitephoto {
     width: 640px;
     overflow: hidden;
     margin-top: 2%;
-    border: 2px solid black;
+
     
 }
 
 .photoban2 {
     display: flex;
-    animation-duration: 20s;
+    animation-duration: 0s;    /*play banniere*/
     animation-name: mesImages;
     animation-iteration-count: infinite;
     
 }
 .banniere2{
+    display: flex;
+    justify-content: center; 
     margin-top: 2%;
-    background-color:coral;
+    background-color:rgb(184, 168, 117);
     width: 100%;
+    
     display: flex;
     justify-content: center;
+    padding: 0;
 
 }
 
@@ -127,4 +125,27 @@ main {
     100% {
         transform: translateX(0);
     }
+}
+
+.textpresent{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+   text-align: justify;
+}
+.signature{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-right: 20%;
+}
+#directeur{
+    margin-top: 20%;
+}
+#imgdirecteur{
+    border: 1px solid black;
+    border-radius: 50px;
 }
