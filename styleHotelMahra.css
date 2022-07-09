@@ -27,7 +27,7 @@ h2 {
 }
 
 .banniere1 {
-    border: 2px solid;
+    border: 4mm ridge rgba(121, 182, 206, 0.6);
     display: flex;
     align-items: center;
     text-align: center;
@@ -36,6 +36,7 @@ h2 {
     background-position: 50%;
     background-repeat: no-repeat;
     background-color: rgb(84, 84, 131);
+    padding: 5px;
 }
 
 .meconnecter,
@@ -92,7 +93,7 @@ figcaption {
 
 .photoban2 {
     display: flex;
-    animation-duration: 20s;            /*play banniere*/
+    animation-duration: 0s;            /*play banniere*/
     animation-name: mesImages;
     animation-iteration-count: infinite;
 
