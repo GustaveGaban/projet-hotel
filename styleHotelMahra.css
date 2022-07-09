@@ -54,17 +54,23 @@ h2 {
 .imgrond {
     display: flex;
     justify-content: center;
-    margin-top: 2%;
+    margin-top: 5%;
     margin-bottom: 2%;
-    border: 1px solid black;
+    padding: 10px;
+    
+}
+#ichambre, #iactivite, #iresto, #icontact{
+    border: 2px solid black;
+    border-radius: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 figcaption {
-    font-size: 150%;
-    margin-top: 20px;
+    text-align: center;
+    margin-top: 10px;
     margin-left: 1%;
     margin-right: 1%;
-
 }
 
 .form {
@@ -72,6 +78,7 @@ figcaption {
     justify-content: center;
     border: 1px solid;
     padding: 2%;
+    margin-top: 10%;
     margin-left: 5%;
     margin-right: 5%;
     background-color: rgb(152, 107, 91);
@@ -80,14 +87,12 @@ figcaption {
 .boitephoto {
     width: 640px;
     overflow: hidden;
-    margin-top: 2%;
-
-    
+    margin-top: 2%; 
 }
 
 .photoban2 {
     display: flex;
-    animation-duration: 0s;    /*play banniere*/
+    animation-duration:20s;    /*play banniere*/
     animation-name: mesImages;
     animation-iteration-count: infinite;
     
@@ -141,11 +146,13 @@ figcaption {
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
     margin-right: 20%;
+    margin-top: 10%;
 }
 #directeur{
     margin-top: 20%;
 }
 #imgdirecteur{
     border: 1px solid black;
-    border-radius: 50px;
+    border-radius:50px;
+    height: 80px;
 }
