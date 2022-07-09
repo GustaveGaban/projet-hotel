@@ -4,9 +4,9 @@
 
 
 .logohotel {
-    width: 20%;
+    width: 40%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 100px;
 
 }
 
@@ -15,47 +15,46 @@ h1 {
     text-shadow: 5px 5px 5px white;
     font-size: 40px;
     margin-top: 5%;
-    margin-left: 5%;
 }
 
 h2 {
-    color: coral;
-    text-shadow: 2px 2px 2px black;
-    margin-left: 20%;
-    font-size: 100%;
-    text-align: left;
+    color: rgb(43, 43, 215);
+    text-shadow: 2px 2px 2px white;
+    font-size: 150%;
+    text-align: center;
     padding: 4px;
     font-family: 'Edu QLD Beginner', cursive;
 }
 
 .banniere1 {
-    border: 5px solid;
+    border: 2px solid;
     display: flex;
     align-items: center;
     text-align: center;
     height: 250px;
-    background-image: url(imghotel/imgherou.jpg);
-    background-position: 100%;
-    background-repeat: none;
+    background-image: url(imghotel/Palace3.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: rgb(84, 84, 131);
 }
 
 .meconnecter,
 .fr {
+    box-shadow: 2px 2px;
     margin: 0;
     display: flex;
     align-items: flex-end;
-    padding: 5px;
+    padding: 7px;
     margin-left: 10px;
 }
 
 .meconnecter {
-    margin-left: 60%;
+    margin-left: 65%;
 }
 
 .imgrond {
     display: flex;
     justify-content: center;
-    margin-top: 5%;
     margin-bottom: 2%;
     padding: 10px;
 
@@ -83,10 +82,7 @@ figcaption {
     justify-content: center;
     border: 1px solid;
     padding: 2%;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: rgb(152, 107, 91);
+    background-color: rgb(85, 166, 178);
 }
 
 .boitephoto {
@@ -96,8 +92,7 @@ figcaption {
 
 .photoban2 {
     display: flex;
-    animation-duration: 0s;
-    /*play banniere*/
+    animation-duration: 20s;            /*play banniere*/
     animation-name: mesImages;
     animation-iteration-count: infinite;
 
@@ -106,7 +101,7 @@ figcaption {
 .banniere2 {
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 10px;
     background-color: rgb(184, 168, 117);
     width: 100%;
 
@@ -168,12 +163,25 @@ figcaption {
 
 .FooterContact {
     text-align: center;
-    background-color: burlywood;
-    padding: 10px
+    background-color: rgb(184, 168, 117);
+    padding: 20px;
 }
-.vague{
+
+.vague,
+.vagueinverse {
     width: 5%;
+
+}
+
+.divvague {
     display: flex;
     justify-content: center;
-    background-color: red;
+    align-items: center;
+    margin-top: 10px;
+}
+.signmahra{
+    font-size: 80%;
+    display: flex;
+    justify-content:center;
+    font-family: 'Kanit', sans-serif;
 }
