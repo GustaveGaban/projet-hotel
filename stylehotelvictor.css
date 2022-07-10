@@ -1,13 +1,12 @@
 
-body{
-        background-color: rgb(255, 249, 228);
+body{    
+    background-color: white;
     margin: 0;
     padding: 0;
     color: rgb(0, 0, 0);
     
 }
 .background{
-    
     background-image: url(imghotel/hd/07.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +21,30 @@ body{
     align-items: center;
     background-color: white;
     opacity: 60%;
+    
       
+}
+.resa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 430%;
+    margin-top: 10%;
+    height: 50px;
+    width: 200%;
+    border-radius: 0;
+    background-color: blueviolet;
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.resa:hover{
+    background-color: chartreuse;
+    color: black;
+    cursor: pointer;
+}
+
+#unique{
+    margin-left: 7%;
 }
 .soustitre{
     display: flex;
@@ -109,7 +131,7 @@ a{
     margin-top: 0%;
     margin-left:21% ;
     margin-right:21% ;
-    background-color: white;
+    background-color:bisque;
     height: 20%;
 }
 
