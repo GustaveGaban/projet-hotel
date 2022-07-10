@@ -134,7 +134,55 @@ figcaption {
     }
 }
 
-.textpresent {
+.boitephotoresto {
+    width: 960px;
+    overflow: hidden;
+}
+
+.photoban2resto {
+    display: flex;
+    animation-duration: 20s;            /*play banniere*/
+    animation-name: mesImagesresto;
+    animation-iteration-count: infinite;
+
+}
+
+.banniere2resto {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: rgb(184, 168, 117);
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    padding: 0;
+
+}
+
+@keyframes mesImagesresto {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-960px);
+    }
+    40% {
+        transform: translateX(-1920px);
+    }
+    60% {
+        transform: translateX(-2880px);
+    }
+    80% {
+        transform: translateX(-3840px);
+    }
+    100% {
+        transform: translateX(-4800px);
+    }
+    }
+
+.textpresent, .texteresto {
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
     margin-top: 5%;
@@ -143,7 +191,7 @@ figcaption {
     text-align: justify;
 }
 
-.signature {
+.signature .signaturechef{
     display: flex;
     justify-content: flex-end;
     font-family: 'Dancing Script', cursive;
@@ -152,11 +200,11 @@ figcaption {
     margin-top: 5%;
 }
 
-#directeur {
+#directeur, #chef{
     margin-top: 20%;
 }
 
-#imgdirecteur {
+#imgdirecteur, #imgchef {
     border: 1px solid black;
     border-radius: 50px;
     height: 80px;
