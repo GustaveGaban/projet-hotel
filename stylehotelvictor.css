@@ -102,16 +102,31 @@ a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.mot{
-    display: block;
-    justify-content: flex-end;
+.motdudirlo{
+    display: flex;
+    justify-content: center;
     text-align: right;
-    margin-top: 5%;
-    margin-left:40% ;
-    margin-right:20% ;
-    
+    margin-top: 0%;
+    margin-left:21% ;
+    margin-right:21% ;
+    background-color: white;
+    height: 20%;
 }
 
+.mot{
+    margin-top: 10%;
+}    
+    
+
+.ricrac{
+    display: flex;
+    width: 20%;
+    padding: 0;
+    
+}
+p{
+    margin: 2%;
+}
 
 
 
