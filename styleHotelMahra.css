@@ -233,3 +233,6 @@ figcaption {
     justify-content:center;
     font-family: 'Kanit', sans-serif;
 }
+#nosmenus{
+  margin:0;
+}
