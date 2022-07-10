@@ -191,7 +191,7 @@ figcaption {
     text-align: justify;
 }
 
-.signature .signaturechef{
+.signature, .signaturechef{
     display: flex;
     justify-content: flex-end;
     font-family: 'Dancing Script', cursive;
@@ -200,7 +200,9 @@ figcaption {
     margin-top: 5%;
 }
 
-#directeur, #chef{
+
+
+#directeur{
     margin-top: 20%;
 }
 
