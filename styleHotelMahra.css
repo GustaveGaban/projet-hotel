@@ -247,3 +247,11 @@ figcaption {
 #nosmenus {
     margin: 0;
 }
+.menumer, .menuterre{
+    display: flex;
+}
+
+ #imgassietteviande, #imgassiettepoisson{
+
+    border: 4mm ridge rgba(121, 182, 206, 0.6);
+}
