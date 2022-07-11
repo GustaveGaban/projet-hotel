@@ -105,7 +105,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5%;    
+     
 }
 
 #blackhotel{
@@ -132,6 +132,52 @@ a{
     margin-left: 22%;
     margin-right: 22%;
 }
+
+/*SLIDER*/
+.boxslider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 3%;
+}
+.slider{
+    display: block;
+    width: 640px;
+    overflow: hidden;
+    border: 1px solid black
+    
+}
+
+#sliderimages{
+    display: flex;
+    animation-duration: 30s;
+    animation-name: sliderhotel;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes sliderhotel {
+    0% {
+        transform:translateX(0)
+    }
+    20%{
+        transform:translateX(-640px)
+    }
+    40%{
+        transform:translateX(-1280px)
+    }
+    60%{
+        transform:translateX(-1920px)
+    }
+    80%{
+        transform:translateX(-2560px)
+    }
+    100%{
+        transform:translateX(0)
+    }
+
+}
+/*SLIDERFIN*/
 
 .motdudirlo{
     display: flex;
