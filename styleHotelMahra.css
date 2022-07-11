@@ -249,12 +249,30 @@ figcaption {
 }
 .menumer, .menuterre{
     display: flex;
+   
+}
+.menumer{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20%;
+}
+.menuterre{
+    margin-top: 10%;
 }
 
  #imgassietteviande, #imgassiettepoisson{
 
-    border: 4mm ridge rgba(121, 182, 206, 0.6);
+    border: 5mm solid rgba(14, 13, 13, 0.197);
+    margin-left: 20%;
+    padding: o;
 }
 #imgassiettepoisson{
     width: 280px;
+}
+.titremenumer, .titremenuterre{
+    margin-left: 15%;
+    font-size: 30px;
+}
+.titrecave{
+    text-decoration: wavy;
 }
