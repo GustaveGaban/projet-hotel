@@ -62,6 +62,7 @@ body{
     padding-left: 5%;
     background-color: white;
     opacity: 60%;
+    
        
 }
 
@@ -75,6 +76,7 @@ body{
     margin: 0%;   
     margin-left: 1%;
     margin-top: 1%;
+    margin-bottom: 2px;
 }
 
 .card .img-top {
@@ -87,6 +89,7 @@ body{
 
 .card:hover .img-top {
     display: inline;
+    
 }
 /* FIN LOGO CHANGEMENT*/
 
@@ -101,15 +104,10 @@ h2{
 }
 
 
-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     
-}
+
 
 #blackhotel{
-margin: 2%;
+margin: 1.25%;
 }
 
 a{
@@ -142,16 +140,14 @@ a{
     padding: 3%;
 }
 .slider{
-    display: block;
-    width: 640px;
-    overflow: hidden;
-    border: 1px solid black
     
+    width: 640px;
+    overflow: hidden;     
 }
 
 #sliderimages{
     display: flex;
-    animation-duration: 30s;
+    animation-duration: 20s;
     animation-name: sliderhotel;
     animation-iteration-count: infinite;
     
@@ -160,45 +156,62 @@ a{
     0% {
         transform:translateX(0)
     }
-    20%{
+    25%{
         transform:translateX(-640px)
     }
-    40%{
+    50%{
         transform:translateX(-1280px)
     }
-    60%{
+    75%{
         transform:translateX(-1920px)
     }
-    80%{
-        transform:translateX(-2560px)
-    }
     100%{
-        transform:translateX(0)
+        transform:translateX(-2560px)
+    
     }
 
 }
 /*SLIDERFIN*/
 
-.motdudirlo{
+figure{
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: beige;
+    padding: 0%;
+}
+
+figcaption{
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+
+.motdudirlo{
+    display: flex;
+    justify-content: right;
     text-align: right;
     margin-top: 0%;
-    margin-left:21% ;
-    margin-right:21% ;
     background-color:bisque;
-    height: 20%;
+    
 }
 
 .mot{
-    margin-top: 10%;
-}    
     
+    width: 150% 100%
+}   
+
+#motmot{
+    margin-top: 5%;
+}
 
 .ricrac{
-    display: flex;
-    width: 20%;
+    display: block;
+    width: 7%;
     padding: 0;
+    height: 50%;
     
 }
 p{
