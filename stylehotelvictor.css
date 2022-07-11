@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding: 0;
     color: rgb(0, 0, 0);
+    border: 4mm ridge rgba(121, 182, 206, 0.6);
     
 }
 .background{
