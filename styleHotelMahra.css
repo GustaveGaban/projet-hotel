@@ -93,8 +93,7 @@ figcaption {
 
 .photoban2 {
     display: flex;
-    animation-duration: 20s;
-    /*play banniere*/
+    animation-duration: 20s;            /*play banniere*/
     animation-name: mesImages;
     animation-iteration-count: infinite;
 
@@ -129,7 +128,7 @@ figcaption {
     }
 
     100% {
-        transform: translateX(-2560px);
+        transform: translateX(0);
     }
 }
 
@@ -140,8 +139,7 @@ figcaption {
 
 .photoban2resto {
     display: flex;
-    animation-duration: 20s;
-    /*play banniere resto*/
+    animation-duration: 20s;            /*play banniere resto*/
     animation-name: mesImagesresto;
     animation-iteration-count: infinite;
 
@@ -168,26 +166,21 @@ figcaption {
     20% {
         transform: translateX(-960px);
     }
-
     40% {
         transform: translateX(-1920px);
     }
-
     60% {
         transform: translateX(-2880px);
     }
-
     80% {
         transform: translateX(-3840px);
     }
-
     100% {
         transform: translateX(-4800px);
     }
-}
+    }
 
-.textpresent,
-.texteresto {
+.textpresent, .texteresto {
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
     margin-top: 5%;
@@ -196,8 +189,7 @@ figcaption {
     text-align: justify;
 }
 
-.signature,
-.signaturechef {
+.signature, .signaturechef{
     display: flex;
     justify-content: flex-end;
     font-family: 'Dancing Script', cursive;
@@ -207,12 +199,11 @@ figcaption {
     background-color: rgb(184, 168, 117);
 }
 
-#directeur {
+#directeur{
     margin-top: 20%;
 }
 
-#imgdirecteur,
-#imgchef {
+#imgdirecteur, #imgchef {
     border: 1px solid black;
     border-radius: 50px;
     height: 80px;
@@ -236,43 +227,12 @@ figcaption {
     align-items: center;
     margin-top: 10px;
 }
-
-.signmahra {
+.signmahra{
     font-size: 80%;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     font-family: 'Kanit', sans-serif;
 }
-
-#nosmenus {
-    margin: 0;
-}
-.menumer, .menuterre{
-    display: flex;
-   
-}
-.menumer{
-    display: flex;
-    flex-direction: row-reverse;
-    margin-right: 20%;
-}
-.menuterre{
-    margin-top: 10%;
-}
-
- #imgassietteviande, #imgassiettepoisson{
-
-    border: 5mm solid rgba(14, 13, 13, 0.197);
-    margin-left: 20%;
-    padding: o;
-}
-#imgassiettepoisson{
-    width: 280px;
-}
-.titremenumer, .titremenuterre{
-    margin-left: 15%;
-    font-size: 30px;
-}
-.titrecave{
-    text-decoration: wavy;
+#nosmenus{
+  margin:0;
 }
