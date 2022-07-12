@@ -154,8 +154,13 @@ a{
     display: flex;
     animation-duration: 30s;
     animation-name: sliderhotel;
-    animation-iteration-count: infinite;
-    
+    animation-iteration-count: infinite;    
+}
+
+#sliderimages:hover{    
+
+    animation-play-state: paused;
+
 }
 @keyframes sliderhotel {
     0% {
