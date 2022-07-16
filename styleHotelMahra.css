@@ -8,9 +8,9 @@ body {
 }
 
 .logohotel {
-    width: 40%;
+    width: 60%;
     height: auto;
-    border-radius: 100px;
+    border-radius: 50%;
 
 }
 
@@ -26,7 +26,7 @@ h1 {
 h2 {
     color: rgb(16, 176, 176);
     text-shadow: 5px 5px 5px black;
-    font-size: 150%;
+    font-size: 100%;
     text-align: center;
     padding: 4px;
     font-family: 'Edu QLD Beginner', cursive;
@@ -38,16 +38,18 @@ h2 {
     align-items: center;
     text-align: center;
     height: 600px;
-    background-image: url(imghotel/hd/07.jpg);
-    background-position: 50%;
+    background-image: url(imghotel/007.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgb(84, 84, 131);
     padding: 5px;
 }
 
 .logotitre {
     font-size: 200%;
+    background-color: rgb(113, 166, 212, 0.5) ;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .meconnecter,
