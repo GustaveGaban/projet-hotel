@@ -31,9 +31,10 @@ h2 {
     display: flex;
     align-items: center;
     text-align: center;
-    height: 250px;
+    height: 200%;
     background-image: url(imghotel/Palace3.jpg);
     background-position: 50%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(84, 84, 131);
     padding: 5px;
@@ -56,6 +57,7 @@ h2 {
 .imgrond {
     display: flex;
     justify-content: center;
+    margin-top: 5%;
     margin-bottom: 2%;
     padding: 10px;
 
@@ -84,6 +86,11 @@ figcaption {
     border: 1px solid;
     padding: 2%;
     background-color: rgb(85, 166, 178);
+}
+#dates, #typeChamb, #boutonOK{
+    margin-left: 5%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 120%;
 }
 
 .boitephoto {
