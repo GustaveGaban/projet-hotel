@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body {
+    background-image: url(icone/parement.jpg);
+    background-size: cover;
+}
 
 .logohotel {
     width: 40%;
@@ -11,15 +15,17 @@
 }
 
 h1 {
+    color: rgb(16, 176, 176);
     text-align: center;
-    text-shadow: 5px 5px 5px white;
-    font-size: 40px;
+    text-shadow: 5px 5px 5px black;
+    font-size: 120px;
     margin-top: 5%;
+    font-family: 'Cormorant SC', serif;
 }
 
 h2 {
-    color: rgb(43, 43, 215);
-    text-shadow: 2px 2px 2px white;
+    color: rgb(16, 176, 176);
+    text-shadow: 5px 5px 5px black;
     font-size: 150%;
     text-align: center;
     padding: 4px;
@@ -27,17 +33,21 @@ h2 {
 }
 
 .banniere1 {
-    border: 4mm ridge rgba(121, 182, 206, 0.6);
+    /* border: 4mm ridge rgba(121, 182, 206, 0.6);*/
     display: flex;
     align-items: center;
     text-align: center;
-    height: 200%;
-    background-image: url(imghotel/Palace3.jpg);
+    height: 600px;
+    background-image: url(imghotel/hd/07.jpg);
     background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(84, 84, 131);
     padding: 5px;
+}
+
+.logotitre {
+    font-size: 200%;
 }
 
 .meconnecter,
@@ -85,9 +95,12 @@ figcaption {
     justify-content: center;
     border: 1px solid;
     padding: 2%;
-    background-color: rgb(85, 166, 178);
+    background-color: rgb(184, 168, 117);
 }
-#dates, #typeChamb, #boutonOK{
+
+#dates,
+#typeChamb,
+#boutonOK {
     margin-left: 5%;
     font-family: 'Ubuntu', sans-serif;
     font-size: 120%;
@@ -100,7 +113,8 @@ figcaption {
 
 .photoban2 {
     display: flex;
-    animation-duration: 20s;            /*play banniere*/
+    animation-duration: 20s;
+    /*play banniere*/
     animation-name: mesImages;
     animation-iteration-count: infinite;
 
@@ -146,7 +160,8 @@ figcaption {
 
 .photoban2resto {
     display: flex;
-    animation-duration: 20s;            /*play banniere resto*/
+    animation-duration: 20s;
+    /*play banniere resto*/
     animation-name: mesImagesresto;
     animation-iteration-count: infinite;
 
@@ -173,30 +188,39 @@ figcaption {
     20% {
         transform: translateX(-960px);
     }
+
     40% {
         transform: translateX(-1920px);
     }
+
     60% {
         transform: translateX(-2880px);
     }
+
     80% {
         transform: translateX(-3840px);
     }
+
     100% {
         transform: translateX(-4800px);
     }
-    }
+}
 
-.textpresent, .texteresto {
+.textpresent,
+.texteresto {
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
     margin-top: 5%;
     margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 5%;
+    padding: 2%;
+    padding-right: 20%;
     text-align: justify;
+    background-color: rgb(184, 168, 117);
 }
 
-.signature, .signaturechef{
+.signature,
+.signaturechef {
     display: flex;
     justify-content: flex-end;
     font-family: 'Dancing Script', cursive;
@@ -206,11 +230,12 @@ figcaption {
     background-color: rgb(184, 168, 117);
 }
 
-#directeur{
+#directeur {
     margin-top: 20%;
 }
 
-#imgdirecteur, #imgchef {
+#imgdirecteur,
+#imgchef {
     border: 1px solid black;
     border-radius: 50px;
     height: 80px;
@@ -234,12 +259,14 @@ figcaption {
     align-items: center;
     margin-top: 10px;
 }
-.signmahra{
+
+.signmahra {
     font-size: 80%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     font-family: 'Kanit', sans-serif;
 }
-#nosmenus{
-  margin:0;
+
+#nosmenus {
+    margin: 0;
 }
