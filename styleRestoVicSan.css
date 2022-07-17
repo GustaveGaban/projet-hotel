@@ -83,7 +83,26 @@
     margin-top: 2%;
     font-size: 50px;
     color: blueviolet;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Cormorant SC', serif;
 }
+ul{
+    font-family: 'Lobster', cursive;
+    list-style-type: none;
+}
+.menumer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    font-size: 20px;
+   margin-left: 10%;
+   margin-right: 20%;
+   text-align: center;
+}
+
+
 .FooterContact{
     text-align: center;
 }
