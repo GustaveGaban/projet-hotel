@@ -112,6 +112,7 @@ ul {
     display: flex;
     justify-content: flex-start;
     font-size: 20px;
+    margin-left: 10%;
     margin-right: 20%;
     text-align: center;
 }
