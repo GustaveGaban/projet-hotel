@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notre Restaurant - Bar</title>
     <link rel="stylesheet" href="stylehotelvictor.css">
+    <link rel="stylesheet" href="styleRestoVicSan.css">
 </head>
 
 <body>
 
 
 
-    <div class="background">
+    <div class="backgroundResto">
         <div class="banniere">
             <h1 id="unique">L' U N I Q U E</h1><a href="#">
                 <a href="#"><button class="resa"><b>RESERVER</b></button></a>
@@ -82,30 +83,51 @@
                 La cuisine de <strong>Edouard Lalouche</strong> s’inspire des recettes traditionnelles et régionales
                 auxquelles il ajoute sa touche de créativité. Le résultat ? Une cuisine gastronomique « terre et mer »,
                 et une carte qui change au rythme des saisons. </p>
+
+            <div class="signaturechef">
+                <img id="imgchef" src="imgemployes/louis-de-funes-kopie-hlf.jpg" alt="Portrait Chef du Restaurant"
+                    width="150px" height="auto">
+
+                <div class="photochef">
+                    <p id="chef"><strong>M. Edouard LALOUCHE</strong></p>
+                    <p>Chef Etoilé de l'Hotel L'Unique</p>
+                </div>
+            </div>
         </div>
         <div class="banniere2resto">
             <div class="boitephotoresto">
                 <div class="photoban2resto">
-                    <img src="imgResto/hotelsalle.jpg" alt="salle du restaurant" width="600px" height="375px">
-                    <img src="imgResto/salle petit dej.jpg" alt="salle petit Déjeuner du restaurant" width="600px" height="375px">
-                    <img src="imgResto/salon.jpg" alt="salon du restaurant" width="600px" height="375px">
-                    <img src="imgResto/salon2.jpg" alt="salon 2 du restaurant" width="600px" height="375px">
-                    <img src="imgResto/bar2.jpg" alt="fumoir du restaurant" width="600px" height="375px">
-                    <img src="imgemployes/arton129846.jpg" alt="fumoir du restaurant" width="600px" height="375px">
+                    <div class="divImg1-2">
+                        <img id="img1" src="imgResto/hotelsalle.jpg" alt="salle du restaurant" width="600px"
+                            height="375px">
+                        <!--<p class="imgLegende">Salle du Restaurant</p>-->
+
+                        <div class="divImg2">
+                            <img id="img2" src="imgResto/salle petit dej.jpg" alt="salle petit Déjeuner du restaurant"
+                                width="600px" height="375px">
+                            <!--<p class="imgLegende">Salle de Petit-Déjeuner</p>-->
+                        </div>
+
+                    </div>
+                    <div class="divImg3-4">
+                        <img id="img3" src="imgResto/salon.jpg" alt="salon du restaurant" width="600px" height="375px">
+                        <!--<p class="imgLegende">Salon Du soir</p>-->
+
+                        <div class="divImg4">
+                            <img id="img4" src="imgResto/salon2.jpg" alt="salon 2 du restaurant" width="600px"
+                                height="375px">
+                            <!--<p class="imgLegende">Ambiance Piano-Bar</p>-->
+                        </div>
+                    </div>
+                    <div class="divIlg5">
+                        <!--< <img id="img5" src="imgemployes/arton129846.jpg" alt="Tablet du restaurant" width="600px"
+                            height="375px">
+                        p class="imgLegende">Le chef Lalouche veille à votre bien-être</p>-->
+                    </div>
                 </div>
             </div>
         </div>
-        
 
-        <div class="signaturechef">
-            <img id="imgchef" src="imgemployes/louis-de-funes-kopie-hlf.jpg" alt="Portrait Chef du Restaurant"
-                width="150px" height="auto">
-
-            <div class="photochef">
-                <p id="chef"><strong>M. Edouard LALOUCHE</strong></p>
-                <p>Chef Etoilé de l'Hotel L'Unique</p>
-            </div>
-        </div>
         <h2>Nos Menus</h2>
         <div class="titremenumer">
             <p><u>Menu Mer</u></p>
@@ -137,6 +159,7 @@
             </ul>
         </div>
         <h2>Notre Cave</h2>
+        <img src="imgResto/bar2.jpg" alt="bar du restaurant" width="600px" height="375px">
     </main>
 
 </html>
