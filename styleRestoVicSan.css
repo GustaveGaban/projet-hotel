@@ -43,3 +43,8 @@
     justify-content: center;
    
 }
+#img1, #img3, #img2, #img4, :-webkit-any-link {
+   
+    cursor: pointer;
+   
+}
