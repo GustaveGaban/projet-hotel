@@ -581,7 +581,7 @@ footer{
     .slider{
         grid-row: 1;
         grid-column: 1/2;
-        
+        border: 0;
         overflow: hidden;
            
     }
@@ -590,8 +590,7 @@ footer{
         display: flex;
         animation-duration: 30s;
         animation-name: sliderhotel;
-        animation-iteration-count: infinite; 
-        border: 0;
+        animation-iteration-count: infinite;         
     }
 
     .textslide{
