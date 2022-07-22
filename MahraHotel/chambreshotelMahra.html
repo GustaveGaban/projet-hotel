@@ -5,17 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact L'Unique</title>
+    <title>Chambres L'Unique</title>
     <link rel="stylesheet" href="styleHotelMahra.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Ubuntu&display=swap');
+    </style>
 </head>
 
 <body>
     <header>
         <div class="banniere1">
             <div class="logotitre">
-                <a href="hotelMahra.html"><img class="logohotel" src="imghotel/1-LogoHotel.jpg" alt="logo Hotel"></a>
+                <a href="hotelMahra.html"><img class="logohotel" src="icone/LogoHotel.jpg" alt="logo Hotel"></a>
                 <div class="soustitre">
-                    <h1>HOTEL L'UNIQUE</h1>
+                    <h1>L'UNIQUE</h1>
                     <h2>Venez vivre une expérience Unique !</h2>
                 </div>
             </div>
@@ -50,11 +54,14 @@
 
         </div>
         <form class="form" action="url" method="post">
+            <div id="dates">
             <label>Date Arrivée :
                 <input type="date" name="DateReservation" id="DateArrivee"></label>
             <label>Date Départ :
                 <input type="date" name="DateReservation" id="DateDépart"></label>
+            </div>
             <!-----------------------------c'est hyper simple !! ------------------------------------------>
+            <div id="typeChamb">
             <select name="Chambres" id="ChambresSelect">
                 <option value="">--Choissisez Votre Chambre--</option>
                 <option value="Chambre1">Chambre Standard</option>
@@ -63,11 +70,22 @@
                 <option value="Chambre4">Suite</option>
                 <option value="Chambre5">Suite Royale</option>
             </select>
+        </div>
+        <div id="boutonOK">
             <input type="button" value="OK">
+            </div>
         </form>
     </header>
     <main>
-       
+        <h3>Nos Chambres</h3>
+        <h4>Chambre Standard</h4>
+        <p>Chambre chaleureuse et accueillante avec deux lits simples, une literie de qualité supérieure, une télévision
+            à
+            écran plat de 39 pouces, un minibar et une salle de bains avec douche à effet pluie et produits de toilette
+            LAVEBIEN.
+        </p>
+
+        <h3>Nos Suites</h3>
 
 
     </main>
