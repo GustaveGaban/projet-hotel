@@ -264,7 +264,6 @@ figcaption {
 
     border: 5mm solid rgba(14, 13, 13, 0.197);
     margin-left: 20%;
-    padding: o;
 }
 #imgassiettepoisson{
     width: 280px;
@@ -276,3 +275,11 @@ figcaption {
 .titrecave{
     text-decoration: wavy;
 }
+
+#imgdicton{
+    margin-left: 10%;
+    margin-top: 10%
+}
+
+
+
