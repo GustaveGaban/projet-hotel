@@ -270,4 +270,44 @@ figcaption {
 
 #nosmenus {
     margin: 0;
+<<<<<<< HEAD:styleHotelMahra.css
 }
+.menumer, .menuterre{
+    display: flex;
+   
+}
+.menumer{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20%;
+}
+.menuterre{
+    margin-top: 10%;
+}
+
+ #imgassietteviande, #imgassiettepoisson{
+
+    border: 5mm solid rgba(14, 13, 13, 0.197);
+    margin-left: 20%;
+}
+#imgassiettepoisson{
+    width: 280px;
+}
+.titremenumer, .titremenuterre{
+    margin-left: 15%;
+    font-size: 30px;
+}
+.titrecave{
+    text-decoration: wavy;
+}
+
+#imgdicton{
+    margin-left: 10%;
+    margin-top: 10%
+}
+
+
+
+=======
+}
+>>>>>>> e76e74bd6f65731cc6fcd83660b586dd05c17ec2:MahraHotel/styleHotelMahra.css
