@@ -19,7 +19,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 100px 60px 120px;
     background-color: aliceblue;
-    opacity: 80%;
+    opacity: 70%;
 }
 
 .caseresa {
@@ -124,6 +124,7 @@ body {
 
 .card:hover .img-top {
     display: inline;
+    
 }
 
 /* FIN LOGO CHANGEMENT*/
